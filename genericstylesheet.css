@@ -2,14 +2,18 @@
 
 body {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  line-height: 1.5;
+  line-height: 1.7;
   color: #566b78;
 }
 
 main {
   margin: 0 auto;
   max-width: 40em;
-  padding: 4em 1em;
+  padding: 2em 1em;
+}
+
+main p {
+  margin-top: 2em;
 }
 
 h2 {
@@ -40,16 +44,9 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   line-height: 1.2;
-  padding: 10vw 2em;
+  padding: 5vw 2em;
   text-align: center;
   max-width: none;
-}
-
-header img {
-  display: inline-block;
-  height: 120px;
-  vertical-align: top;
-  width: 120px;
 }
 
 header h1 {
@@ -88,3 +85,21 @@ header a:hover {
   background:  #e81c4f;
   color: white;
 } */
+
+img {
+  display: block;
+  margin: 0 auto;
+  /* height: 120px; */
+  /* vertical-align: top; */
+  width: 20em;
+  /* text-align: center; */
+}
+
+@media (min-width: 600px) {
+  img {
+    margin-top: -8em;
+    margin-left: 2em;
+    float: right;
+    max-width: 85%;
+  }
+}
